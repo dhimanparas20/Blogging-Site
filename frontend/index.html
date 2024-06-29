@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlogging Site Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="admin" class="panel">
+            <h2>Admin Panel</h2>
+            <form id="createForm" class="form">
+                <input type="text" id="title" name="title" placeholder="Enter Title" required>
+                <textarea id="content" name="content" placeholder="Enter Content" rows="6" required></textarea>
+                <button type="submit">Create Blog</button>
+            </form>
+            <div id="blogs" class="blog-list">
+                <!-- Blogs will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="user" class="panel">
+            <h2>Vlogs</h2>
+            <hr>
+            <div id="userBlogs" class="blog-list">
+                <!-- User view of blogs will be dynamically added here -->
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
