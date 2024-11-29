@@ -1,6 +1,6 @@
 # usage
 -Run inside the project root directory.
-'''sh
 
+```sh
   php -S localhost:PORT
 ``` 
